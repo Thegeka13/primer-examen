@@ -10,7 +10,7 @@ export default function Home() {
   useEffect(() => {
     async function cargarDatos() {
       try {
-        const data = await obtenerAutos(); // llamada simulada a API
+        const data = await obtenerAutos();
         setAutos(data);
       } catch (error) {
         console.error("Error al cargar autos:", error);
