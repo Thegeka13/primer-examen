@@ -1,0 +1,26 @@
+export const autos = [
+  {
+    id: "1",
+    nombre: "Ferrari",
+    escuderia: "Scuderia Ferrari",
+    piloto: "Charles Leclerc / Carlos Sainz",
+    año: 2025,
+    img: "https://imgs.search.brave.com/oVvlolqegnB4meduW6yMma0P3vRq9Ebf8HG3Wp4EFDk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb3Rv/Z3JhZmlhcy5sYXNl/eHRhLmNvbS9jbGlw/cGluZy9jbXNpbWFn/ZXMwMi8yMDI0LzAx/LzA0LzY5RDg3QUMy/LUUyRjMtNDE4OC1C/Njc4LTQwOTkyNTI4/NjIyNy9zZWNyZXRv/cy1wcm94aW1vLW1v/bm9wbGF6YS1mZXJy/YXJpLXF1ZS1zdWVu/YW4tc2FpbnotbGVj/bGVyY185OC5qcGc_/Y3JvcD0xMjAwLDY3/NSx4MCx5MTEyJndp/ZHRoPTE5MDAmaGVp/Z2h0PTEwNjkmb3B0/aW1pemU9aGlnaCZm/b3JtYXQ9d2VicGx5"
+  },
+  {
+    id: "2",
+    nombre: "Red Bull",
+    escuderia: "Red Bull Racing",
+    piloto: "Max Verstappen / Yuki Tsunoda",
+    año: 2025,
+    img: "https://imgs.search.brave.com/LgxSU7AvciooMzPRhItaT2_lVPPpIvKAVU3riU8OyAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FyYnVyYW5kby5j/b20vbWVkaWEvY2Fj/aGUvcG9zdF9kZXNr/dG9wXzcwMC9pbWFn/ZXMvNjVjZTY5NTk2/MzUzZjI3MDY5NjM3/My5qcGc"
+  },
+  {
+    id: "2",
+    nombre: "Red Bull",
+    escuderia: "Red Bull Racing",
+    piloto: "Max Verstappen / Yuki Tsunoda",
+    año: 2025,
+    img: "https://imgs.search.brave.com/LgxSU7AvciooMzPRhItaT2_lVPPpIvKAVU3riU8OyAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FyYnVyYW5kby5j/b20vbWVkaWEvY2Fj/aGUvcG9zdF9kZXNr/dG9wXzcwMC9pbWFn/ZXMvNjVjZTY5NTk2/MzUzZjI3MDY5NjM3/My5qcGc"
+  },
+];
