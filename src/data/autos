@@ -16,11 +16,11 @@ export const autos = [
     img: "https://imgs.search.brave.com/LgxSU7AvciooMzPRhItaT2_lVPPpIvKAVU3riU8OyAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FyYnVyYW5kby5j/b20vbWVkaWEvY2Fj/aGUvcG9zdF9kZXNr/dG9wXzcwMC9pbWFn/ZXMvNjVjZTY5NTk2/MzUzZjI3MDY5NjM3/My5qcGc"
   },
   {
-    id: "2",
-    nombre: "Red Bull",
-    escuderia: "Red Bull Racing",
-    piloto: "Max Verstappen / Yuki Tsunoda",
+    id: "3",
+    nombre: "RB",
+    escuderia: "Visa Cash App Racing Bull",
+    piloto: "Isack Hadjar / Liam Lawson",
     año: 2025,
-    img: "https://imgs.search.brave.com/LgxSU7AvciooMzPRhItaT2_lVPPpIvKAVU3riU8OyAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FyYnVyYW5kby5j/b20vbWVkaWEvY2Fj/aGUvcG9zdF9kZXNr/dG9wXzcwMC9pbWFn/ZXMvNjVjZTY5NTk2/MzUzZjI3MDY5NjM3/My5qcGc"
-  },
+    img: "https://imgs.search.brave.com/0-0DkiJS78nZdtWd2PBXSGEe8YUxWG_TlckFosV2Cf4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb3Jw/b3JhdGUudmlzYS5j/b20vY29udGVudC9k/YW0vVkNPTS9jb3Jw/b3JhdGUvdmlzYS1w/ZXJzcGVjdGl2ZXMv/Y29tcGFueS1uZXdz/L2ltYWdlcy92Y2Fy/Yi1saXZlcnktcmV2/ZWFsLTgwMHgzMDAu/anBn"
+    }
 ];

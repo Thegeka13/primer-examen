@@ -1,7 +1,31 @@
+// src/pages/Home.jsx
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { autos } from "../data/autos";
+import { obtenerAutos } from "../services/autoService";
 
 export default function Home() {
+  const [autos, setAutos] = useState([]);
+  const [cargando, setCargando] = useState(true);
+
+  useEffect(() => {
+    async function cargarDatos() {
+      try {
+        const data = await obtenerAutos(); // llamada simulada a API
+        setAutos(data);
+      } catch (error) {
+        console.error("Error al cargar autos:", error);
+      } finally {
+        setCargando(false);
+      }
+    }
+
+    cargarDatos();
+  }, []);
+
+  if (cargando) {
+    return <p className="p-6 text-center text-lg"> Cargando autos...</p>;
+  }
+
   return (
     <div className="p-6">
       <h1 className="text-4xl font-bold text-center mb-6">Autos de F1 2024</h1>
