@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { obtenerAutoPorId } from "../services/autoService";
-import { useApp } from "../Context/AppContext";
+import { useApp } from "../context/AppContext";
 
 export default function AutoDetalle() {
   const { usuario } = useApp();

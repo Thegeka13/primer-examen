@@ -1,7 +1,7 @@
 // src/pages/Login.jsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useApp } from "../Context/AppContext";
+import { useApp } from "../context/AppContext";
 
 export default function Login() {
   const [nombre, setNombre] = useState("");

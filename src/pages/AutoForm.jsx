@@ -1,7 +1,7 @@
 // src/pages/AutoForm.jsx
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { useApp } from "../Context/AppContext";
+import { useApp } from "../context/AppContext";
 
 export default function AutoForm() {
   const { id } = useParams();

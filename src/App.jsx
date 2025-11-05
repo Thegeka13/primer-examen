@@ -5,7 +5,7 @@ import AutoDetalle from "./pages/AutoDetalle";
 import AutoForm from "./pages/AutoForm";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
-import { AppProvider, useApp } from "./Context/AppContext";
+import { AppProvider, useApp } from "./context/AppContext";
 
 function Nav() {
   const { usuario, logout } = useApp();
