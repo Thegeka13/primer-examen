@@ -22,5 +22,13 @@ export const autos = [
     piloto: "Isack Hadjar / Liam Lawson",
     año: 2025,
     img: "https://imgs.search.brave.com/0-0DkiJS78nZdtWd2PBXSGEe8YUxWG_TlckFosV2Cf4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb3Jw/b3JhdGUudmlzYS5j/b20vY29udGVudC9k/YW0vVkNPTS9jb3Jw/b3JhdGUvdmlzYS1w/ZXJzcGVjdGl2ZXMv/Y29tcGFueS1uZXdz/L2ltYWdlcy92Y2Fy/Yi1saXZlcnktcmV2/ZWFsLTgwMHgzMDAu/anBn"
+    },
+    {
+    id: "3",
+    nombre: "RB",
+    escuderia: "Visa Cash App Racing Bull",
+    piloto: "Isack Hadjar / Liam Lawson",
+    año: 2025,
+    img: "https://imgs.search.brave.com/0-0DkiJS78nZdtWd2PBXSGEe8YUxWG_TlckFosV2Cf4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb3Jw/b3JhdGUudmlzYS5j/b20vY29udGVudC9k/YW0vVkNPTS9jb3Jw/b3JhdGUvdmlzYS1w/ZXJzcGVjdGl2ZXMv/Y29tcGFueS1uZXdz/L2ltYWdlcy92Y2Fy/Yi1saXZlcnktcmV2/ZWFsLTgwMHgzMDAu/anBn"
     }
 ];
