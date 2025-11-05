@@ -1,9 +1,8 @@
-// src/pages/Home.jsx
-import { Link, useNavigate } from "react-router-dom";
 import { useApp } from "../context/AppContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
-  const { usuario, autos, deleteAuto } = useApp();
+  const { usuario, autos, deleteAuto, logout } = useApp(); // agregamos logout
   const navigate = useNavigate();
 
   if (!usuario) {
@@ -32,12 +31,23 @@ export default function Home() {
     <div className="container py-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h1 className="display-5 fw-bold">Autos de F1 2024</h1>
-        <button
-          onClick={() => navigate("/auto/nuevo")}
-          className="btn btn-success"
-        >
-          Nuevo Auto
-        </button>
+        <div className="d-flex gap-2">
+          <button
+            onClick={() => navigate("/auto/nuevo")}
+            className="btn btn-success"
+          >
+            Nuevo Auto
+          </button>
+          <button
+            onClick={() => {
+              logout();           // ejecuta logout
+              navigate("/");      // redirige al login o página principal
+            }}
+            className="btn btn-danger"
+          >
+            Cerrar sesión
+          </button>
+        </div>
       </div>
 
       <div className="row g-4">
